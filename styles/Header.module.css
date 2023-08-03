@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 0px;
+    padding-left: 120px;
+    padding-right: 0px;
+    background-color: #3f5aa3;
+    color: aliceblue;
+    position: fixed;
+
+}
+
+.accueil {
+    width: 70px;
+    height: 30px;
+    margin-left: 0.9rem;
+    margin: auto;
+}
+
+.titre {
+
+    text-decoration: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.img {
+    height: 4rem;
+    width: 7rem;
+    margin-top: 5px;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.logo {
+    width: 4rem;
+    height: auto;
+}
+
+
+@media(min-width :40rem) {
+    .header {
+        flex-direction: row;
+    }
+}

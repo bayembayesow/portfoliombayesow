@@ -1,0 +1,39 @@
+@media (min-width: 700px) {
+    .layout {
+        flex-direction: row;
+    }
+}
+
+@media (min-width < 700px) {
+    .layout {
+        flex-direction: column;
+
+    }
+}
+
+.layout>div {
+    width: 100%;
+}
+
+.header {
+    position: fixed;
+    background-color: #264653;
+    color: #f4a261;
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer {
+
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+    position: fixed;
+}
+
+.main {
+    display: flex;
+
+    min-height: 100vh;
+}

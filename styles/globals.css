@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #A9A9A9;
+
+  max-height: 200px;
+
+}
